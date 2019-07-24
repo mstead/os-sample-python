@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Before assembling"
+whoami
 
 /usr/libexec/s2i/assemble
 rc=$?
